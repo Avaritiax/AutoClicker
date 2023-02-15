@@ -1,0 +1,2 @@
+# AutoClicker
+Mini Project
