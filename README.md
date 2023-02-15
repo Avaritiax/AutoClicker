@@ -1,2 +1,5 @@
 # AutoClicker
-Mini Project
+
+Setup
+pip install -r requirements.txt
+
