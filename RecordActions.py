@@ -49,6 +49,8 @@ def record_mouse_position():
 def on_click(x, y, button, pressed):
     if recording:
         action = "Clicked" if pressed else "Released"
+        x, y = mouse.position
+        print(x,y)
         recordAction.append(f"{action}+{button},({x}, {y})")
 
 def on_scroll(x, y, dx, dy):
